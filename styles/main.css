@@ -1,0 +1,91 @@
+body{
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    font-family:Helvetica,Arial;
+    color:#000;
+    }
+h2,h4{
+      color:#30396D;
+    }
+nav {
+  text-align:right;
+}
+nav a, .purple a{
+  text-decoration:none;
+  list-style-type:none;
+  color:#fff;
+  font-size:12px;
+  padding:5px;
+  margin:1px;  
+}
+header{
+background-image: url("sky.jpg");
+  height:429px; 
+}
+h1,h3{
+  text-align:center;
+  color:#fff;
+  margin:70px;
+} 
+section{
+  width:72%;
+  display: inline-block;
+}
+aside{
+  width:25%;
+  vertical-align:top;
+  float:right;
+}
+.Tags a{
+  list-style-type:none;
+  border:1px solid #888;
+  text-decoration:none;
+  font-size:14px;
+  padding:2px;
+  margin:2px;
+  color:#888;
+  display:inline-block;
+}
+.quote{
+   border:1px solid #888;
+   margin:95px;
+   padding:15px;
+   font-style:italic;
+}
+.citation{
+  text-align:right;
+}
+.purple{
+  background-color:#30396D;
+  margin-left:auto;
+  margin-right:auto;
+  }
+  .Categories, .Tags, .Milky{
+    border-bottom:3px solid #888;
+    text-align:left;
+    padding: 15px;
+  }
+  .Milky img{
+    text-align:center;
+    border: 2px solid #888;  
+  }
+  .Events, .News, .Social{
+    display:inline-block;
+    padding:15px;
+    color:#fff;
+    }
+     .Events li, .News li, .Social li{
+    list-style-type: none;
+    text-decoration:none;
+    text-align: left;
+    }
+    h5{
+      margin-left:45px;
+    }
+  .Social li{
+    border:1px solid #888;
+    padding:1px 55px;
+    margin:5px 50px;
+    text-align:center;
+  }
